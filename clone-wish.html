@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>위시켓 통합회원 로그인</title>
+  <link rel="stylesheet" href="clone-wish.css">
+  <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/static/favicon.ico" rel="apple-touch-icon" sizes="120x120">
+  <link rel="apple-touch-icon" href="/static/touch-icon-ipad-retina.png" sizes="152x152">
+</head>
+
+<body class="wishket-member-signin">
+  <div class="gaia">
+    <div class="wishket-member-signin-wrapper">
+      <div class="logo-section">
+        <div class="logo-section-wrapper">
+          <div class="title-header mb16">
+            위시켓의 다양한 서비스를
+            <br>
+            하나의 계정으로!
+          </div>
+
+          <div class="text600 body-2">
+            "위시켓 서비스뿐만 아니라 위시켓 잡스, 요즘IT까지"
+            <br>
+            "하나의 계정으로 간편하게 이용해 보세요."
+          </div>
+
+          <img src="/static/renewal/img/wishket-member/img_login_account.png"
+            srcset="/static/renewal/img/wishket-member/img_login_account.png 1x, /static/renewal/img/wishket-member/img_login_account@2x.png 2x,/static/renewal/img/wishket-member/img_login_account@3x.png 3x">
+        </div>
+      </div>
+
+      <div class="input-section">
+        <div class="input-section-wrapper">
+          <div class="subtitle-2-medium mb24">로그인</div>
+
+          <form id="wishketSignForm">
+            <input type="hidden" name="csrfmiddlewaretoken" value="">
+
+            <div class="input-box">
+              <div class="label-input-wishket">
+                <input type="text" name="username" class="theme-wishket wishket-label-input" data-type="label"
+                  maxlength="100">
+                <label>아이디 또는 이메일</label>
+              </div>
+              <span class="error-text" style="display:none;">에러상세 메시지</span>
+              <span class="error-text-custom">아이디 또는 이메일을 입력해주세요.</span>
+            </div>
+
+            <div class="input-box">
+              <div class="label-input-wishket">
+                <input class="theme-wishket wishket-label-input" data-type="label" id="password-input" maxlength="33"
+                  name="password" type="password">
+                <label>비밀번호</label>
+              </div>
+
+              <span class="error-text" style="display: none;">에러상세 메세지</span>
+
+              <i class="icon-eyes-group">
+                <img class="icon icon-eyes-on" src="https://account.wishket.com/static/renewal/img/news/icon_input_eye.png"
+                srcset="/static/renewal/img/news/icon_input_eye.png 1x, /static/renewal/img/news/icon_input_eye@2x.png 2x,/static/renewal/img/news/icon_input_eye@3x.png 3x">
+                <img class="icon icon-eyes-off" src="/static/renewal/img/news/icon_input_slash.png" srcset="/static/renewal/img/news/icon_input_slash.png 1x, /static/renewal/img/news/icon_input_slash@2x.png 2x,/static/renewal/img/news/icon_input_slash@3x.png 3x">
+              </i>
+
+              <span class="error-text-custom">비밀번호를 입력해 주세요.</span>
+            </div>
+
+            <div class="mb24 subaction">
+              <div class="input-box">
+                <label class="checkbox-wishket">
+                  <span>
+                    <input class="wishket-checkbox theme-wishket" name="remember-me" type="checkbox" value="">
+                    <span class="arrow">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                        <g fill="none" full-rule="evenodd">
+                          <path class="checked-icon" stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 7.8L7 11l5-6"
+                          ></path>
+                        </g>
+                      </svg>
+                    </span>
+                  </span>
+                  <span>로그인 상태 유지</span>
+                  ::after
+                </label>
+              </div>
+
+              <div class="sub-action-link">
+                <a class="link-href" href="https://account.wishket.com/wishket-member/password/reset/">비밀번호 찾기</a>
+              </div>
+            </div>
+
+            <button class="mb16 btn btn-11-24 btn-block btn-wishket" id="submitBtn" type="button">로그인</button>
+          </form>
+
+          <div class="social-login-seperator">
+            <div class="social-login-seperator-wrapper">또는</div>
+          </div>
+
+          <div class="social-login-box">
+            <a class="btn btn-11-24 btn-block btn-white-border btn-social-login" onclick="social_login_popup('google-oauth2', '구글')"
+            type="button">
+              <img src="https://account.wishket.com/static/renewal/img/wishket-member/img-btn-google.pngg" srcset="/static/renewal/img/wishket-member/img-btn-google.png 1x, /static/renewal/img/wishket-member/img-btn-google@2x.png 2x,/static/renewal/img/wishket-member/img-btn-google@3x.png 3x">
+              <div>구글로 로그인</div>
+          </a>
+          </div>
+
+          <div class="body-2 border-sub-action"></div>
+        </div>
+      </div>
+    </div>
+    ::after
+  </div>
+</body>
+
+</html>

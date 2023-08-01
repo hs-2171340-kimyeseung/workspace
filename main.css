@@ -1,0 +1,554 @@
+*,
+:after,
+:before {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x: ;
+  --tw-pan-y: ;
+  --tw-pinch-zoom: ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-ordinal: ;
+  --tw-slashed-zero: ;
+  --tw-numeric-figure: ;
+  --tw-numeric-spacing: ;
+  --tw-numeric-fraction: ;
+  --tw-ring-inset: ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgba(59, 130, 246, .5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur: ;
+  --tw-brightness: ;
+  --tw-contrast: ;
+  --tw-grayscale: ;
+  --tw-hue-rotate: ;
+  --tw-invert: ;
+  --tw-saturate: ;
+  --tw-sepia: ;
+  --tw-drop-shadow: ;
+  --tw-backdrop-blur: ;
+  --tw-backdrop-brightness: ;
+  --tw-backdrop-contrast: ;
+  --tw-backdrop-grayscale: ;
+  --tw-backdrop-hue-rotate: ;
+  --tw-backdrop-invert: ;
+  --tw-backdrop-opacity: ;
+  --tw-backdrop-saturate: ;
+  --tw-backdrop-sepia: ;
+}
+
+*,
+:after,
+:before {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x: ;
+  --tw-pan-y: ;
+  --tw-pinch-zoom: ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-ordinal: ;
+  --tw-slashed-zero: ;
+  --tw-numeric-figure: ;
+  --tw-numeric-spacing: ;
+  --tw-numeric-fraction: ;
+  --tw-ring-inset: ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgba(59, 130, 246, .5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur: ;
+  --tw-brightness: ;
+  --tw-contrast: ;
+  --tw-grayscale: ;
+  --tw-hue-rotate: ;
+  --tw-invert: ;
+  --tw-saturate: ;
+  --tw-sepia: ;
+  --tw-drop-shadow: ;
+  --tw-backdrop-blur: ;
+  --tw-backdrop-brightness: ;
+  --tw-backdrop-contrast: ;
+  --tw-backdrop-grayscale: ;
+  --tw-backdrop-hue-rotate: ;
+  --tw-backdrop-invert: ;
+  --tw-backdrop-opacity: ;
+  --tw-backdrop-saturate: ;
+  --tw-backdrop-sepia: ;
+}
+
+:after,
+:before {
+  --tw-content: "";
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  border: 0 solid #e5e7eb;
+}
+
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x: ;
+  --tw-pan-y: ;
+  --tw-pinch-zoom: ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-ordinal: ;
+  --tw-slashed-zero: ;
+  --tw-numeric-figure: ;
+  --tw-numeric-spacing: ;
+  --tw-numeric-fraction: ;
+  --tw-ring-inset: ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgba(59, 130, 246, .5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur: ;
+  --tw-brightness: ;
+  --tw-contrast: ;
+  --tw-grayscale: ;
+  --tw-hue-rotate: ;
+  --tw-invert: ;
+  --tw-saturate: ;
+  --tw-sepia: ;
+  --tw-drop-shadow: ;
+  --tw-backdrop-blur: ;
+  --tw-backdrop-brightness: ;
+  --tw-backdrop-contrast: ;
+  --tw-backdrop-grayscale: ;
+  --tw-backdrop-hue-rotate: ;
+  --tw-backdrop-invert: ;
+  --tw-backdrop-opacity: ;
+  --tw-backdrop-saturate: ;
+  --tw-backdrop-sepia: ;
+}
+
+.h-full {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  line-height: inherit;
+  display: block;
+}
+
+#next {
+  min-height: 100%;
+}
+
+
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.flex {
+  display: flex;
+}
+
+@media (min-width: 1024px) {
+  .lg-p {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg-right {
+    width: 55%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg-block {
+    display: block;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg-w-left {
+    width: 45%;
+  }
+}
+
+.items-center {
+  align-items: center;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.w-full {
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .lg-px-40 {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg-mt-52 {
+    margin-top: 52px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg-mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.px-32 {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.max-w-400 {
+  max-width: 400px;
+}
+
+.min-w-320 {
+  min-width: 320px;
+}
+
+.relative {
+  position: relative;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.font-button-bold-md {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.h-48 {
+  height: 48px;
+}
+
+.rounded-24 {
+  border-radius: 24px;
+}
+
+.content-secondary {
+  color: #333334;
+  fill: #333334;
+}
+
+.surface-tertiary {
+  background-color: #f3f3f4;
+}
+
+button {
+  -webkit-appearance: button;
+  background-image: none;
+  cursor: pointer;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+input,
+optgroup,
+selct,
+textarea {
+  font-family: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.font-button-bold-md {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  tab-size: 4;
+  font-family: Pretendard, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.font-display-bold-sm {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.mt-28 {
+  margin-top: 28px;
+}
+
+.gap-y-12 {
+  row-gap: 12px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-24 {
+  margin-top: 24px;
+}
+
+.mb-8 {
+  margin-bottom: 8px;
+}
+
+.font-label-bold-md {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.content-primary {
+  color: #1d1d1e;
+  fill: #1d1d1e;
+}
+
+blockquote,
+dd,
+dl,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+pre {
+  margin: 0;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-1 {
+  border-width: 1px;
+}
+
+.rounded-8 {
+  border-radius: 8px;
+}
+
+
+.border-black-opacity {
+  border-color: rgba(0, 0, 0, .1);
+}
+
+.surface-primary {
+  background-color: #fff;
+}
+
+.outline-none {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.px-20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.h-48 {
+  height: 48px;
+}
+
+.font-body-regular-md {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.content-primary {
+  color: #1d1d1e;
+  fill: #1d1d1e;
+}
+
+
+
+.content-primary-inverse {
+  color: #fff;
+  fill: #fff;
+}
+
+.surface-primary-inverse {
+  background-color: #1d1d1e;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.flex-shrink {
+  flex-shrink: 1;
+}
+
+.max-w-96 {
+  max-width: 96px;
+}
+
+.border-primary {
+  border-color: #e6e6e7;
+}
+
+hr {
+  height: 0;
+  color: inherit;
+  border-top-width: 1px;
+}
+
+@media (min-width: 1024px) {
+  .lg:mx-18 {
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+}
+
+.gap-y-12 {
+  row-gap: 12px;
+}
+
+.bg-#FFEA2B {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 234 43/var(--tw-bg-opacity));
+}
+
+.min-w-88 {
+  min-width: 88px;
+}
+
+.shrink-0 {
+  flex-shrink: 0;
+}
+
+.mr-4 {
+  margin-right: 4px;
+}
+
+input:not([type="range"]):not([type="color"]) {
+  writing-mode: horizontal-tb !important;
+}
+
+[type=button],
+[type=reset],
+[type=submit],
+button {
+  -webkit-appearance: button;
+  background-image: none;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.mr-8 {
+  margin-right: 8px;
+}
+
+.content-accent {
+  color: #5b44ea;
+  fill: #5b44ea;
+}
+
+.font-label-bold-lg {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+element.style {
+  position: absolute;
+  inset: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  border: none;
+  margin: auto;
+  display: block;
+  width: 0px;
+  height: 0px;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+a{
+  text-decoration: inherit;
+}
+
+.bg-FFEA2B{
+  --tw-bg-opacity: 1;
+    background-color: rgb(255 234 43/var(--tw-bg-opacity));
+}
+
+audio, canvas, embed, iframe, img, object, svg, video {
+  vertical-align: middle;
+}
